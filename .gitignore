@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+node_modules.legacy/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Build, test, and runtime output
+build/
+dist/
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors, operating systems, and local environments
+.DS_Store
+**/.DS_Store
+.idea/
+.vscode/
+.venv/
+venv/
+
+# Local setup notes that are not part of the public project documentation
+FIX_DATABASE_CONNECTION.md
+GITHUB_SETUP.md
+SETUP_INSTRUCTIONS.md
